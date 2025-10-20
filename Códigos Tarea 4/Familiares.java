@@ -38,11 +38,10 @@ public class Familiares {
         return a;
     }
 
-    // Ejemplo de uso
     public static void main(String[] args) {
         int[] A = {3, 10, 1, 8, 4, 5, 3, 6, 9, 2};
-
         int d = maxFamiliares(A);
-        System.out.println("Máxima longitud de subarreglos familiares: " + d);
+        System.out.println("La máxima longitud de subarreglos familiares es " + d);
     }
 }
+
