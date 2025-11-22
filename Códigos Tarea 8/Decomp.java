@@ -2,7 +2,10 @@ public class Decomp{
     // Clase para los numeros complejos (para el FFT)
     static class Complex{
         double re, im;
-        Complex(double r, double i) { re = r; im = i; }
+        Complex(double r, double i){
+            re = r;
+            im = i;
+        }
 
         Complex add(Complex o){
             return new Complex(re + o.re, im + o.im);
@@ -93,4 +96,5 @@ public class Decomp{
         return max;
     }
 }
+
 
